@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radush Vladymyr | Official page</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="keywords" content="Web-developer, Reni web-developer, Рени Рени разработка сайта, рени программист">
+    <meta name="description" content = "Want to create a site? Or some web-application? Good, we have a deal! I am working - you're enjoying!">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="header">
+            <div class="Logo header-left">
+                <span>Logo</span>
+            </div>
+            <div>
+                <nav class="nav header-right">
+                    <ul class="menu-list">
+                        <li class="menu-list-item first"><a class="link" href="#home">Home</a></li>
+                        <li class="menu-list-item"><a class="link" href="#technologies">Technologies</a></li>
+                        <li class="menu-list-item"><a class="link" href="#projects">Projects</a> </li>
+                        <li class="menu-list-item"><a class="link" href="#contacts">Contact me</a></li>
+                    </ul>
+                </nav>
+                <div class="toggle-btn">
+                    <span class="toggle-btn-up"></span>
+                    <span class="toggle-btn-down"></span>
+                </div>
+            </div>
+        </header>
+        <!-- Home section -->
+        <section class="home-section section" id="home">
+            <div class="home-section-left-column">
+                <p class="home-section-left-column-greetings"><span class="significant">Hello,</span> my name is
+                    Vladymyr!</p>
+                <p class="home-section-left-column-profession">Web-developer</p>
+                <p class="home-section-left-column-description">
+                    Want to create a site? Or some web-application? Good, we have a deal! I am working - you're
+                    enjoying!
+                </p>
+                <div class="home-section-contact-me"><a target="_blank"
+                        href="https://drive.google.com/file/d/1Fkhqc21cYQf8mdX3mupgF6zxev9MzA8Q/view?usp=sharing">Download
+                        CV</a></div>
+            </div>
+            <div class="home-section-right-column">
+                <img src="photos/me1.jpg" alt="My photo">
+            </div>
+        </section>
+        <!--technologies section-->
+        <section class="technologies section" id="technologies">
+            <h2 class="section-header">Languages and frameworks i know</h2>
+            <div class="technologies-items">
+                <div class="technologies-item" style="--bg:#f06529">
+                    <p>HTML</p>
+                </div>
+                <div class="technologies-item" style="--bg:#279ad6">
+                    <p>CSS</p>
+                </div>
+                <div class="technologies-item" style="--bg:#fcdb03">
+                    <p>JavaScript</p>
+                </div>
+                <div class="technologies-item" style="--bg:#03fc45">
+                    <p>Figma</p>
+                </div>
+                <div class="technologies-item" style="--bg:#326690">
+                    <p>TypeScript</p>
+                </div>
+                <div class="technologies-item" style="--bg:#fc3503">
+                    <p>Angular</p>
+                </div>
+            </div>
+        </section>
+        <!-- Projects section -->
+        <section class="projects section" id="projects">
+            <h2 class="section-header"><span class="significant">My</span> projects</h2>
+            <div class="projects-filters">
+                <button class="projects-filter">All</button>
+                <button class="projects-filter">HTML</button>
+                <button class="projects-filter">CSS</button>
+                <button class="projects-filter">JavaScript</button>
+                <button class="projects-filter">Figma</button>
+                <button class="projects-filter">TypeScript</button>
+                <button class="projects-filter">Angular</button>
+            </div>
+            <div class="projects-cards">
+            </div>
+        </section>
+        <section class="contacts section" id="contacts">
+            <h2 class="section-header"><span class="significant">Contact</span> me</h2>
+            <form class="contacts-form" action="https://formsubmit.co/radush9860@gmail.com" method="POST">
+                <input type="email" name="name" placeholder="Email" required>
+                <input type="text" name="email" placeholder="Full Name" required>
+                <input type="text" name="_subject" placeholder="Subject" required>
+                <textarea name="message" id="message" placeholder="Message" required></textarea>
+                <button type="submit" id="contacts-form-send">Send</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100034183999964"><img class="footer-img" src="icons/facebook.png" alt=""></a>
+        <a target="_blank" href="https://www.linkedin.com/in/vladimir-radush-a149a7198/"><img class="footer-img" src="icons/linkedin.png" alt=""></a>
+        <a target="_blank" href="https://t-do.ru/Po1arFoxx"><img class="footer-img" src="icons/telegram.png" alt=""></a>
+    </footer>
+    <script type="module" src="app.js">
+    </script>
+</body>
+
+</html>
