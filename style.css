@@ -151,6 +151,11 @@ textarea::-webkit-scrollbar-track{
     }
 }
 
+.Logo img{
+    height:50px;
+    width:50px;
+}
+
 .header::before{
     content:"";
     display: block;
